@@ -77,8 +77,155 @@
 }
 #buttonSusc{
     width: 50%;
+    margin: 1rem 0;
     padding: 1rem;
     background-color: red;
     color: white;
     
 }
+.mail input{
+    width: 100%;
+    height: 4vh;
+}
+
+/* section contact */
+
+.contact{
+    background-color: gray;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.contact h2{
+    text-align: center;
+    padding: 2rem;
+}
+.contact p{
+    text-align: center;
+}
+
+.contact form{
+    padding: 0.5rem;
+    
+    display: flex;
+    flex-direction: column;
+}
+.form{
+    width: 100%;
+}
+.contact input{
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+}
+
+.send {
+    background-color: black;
+    color: white;
+}
+.about {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width:40%;
+    
+}
+.about a{
+
+color: black;
+}
+
+.store{
+    width: 49%;
+    text-align: center;
+}
+.store h3{
+    padding: 0.5rem 0;
+}
+
+/* footer */
+footer{
+    background-color:black;
+    color: white;
+    height: 10vh;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.listeMenu{
+    display: none;
+}
+
+.listeMenu ul{
+    margin:3rem
+    ;
+}
+
+
+@media screen and (min-width:576px){
+    .responsive{ 
+        display: flex;
+    }
+
+    .contact{
+        display: flex;
+        
+    }
+
+    #burger{
+        display: none;
+        
+    }
+    .listeMenu{
+        display: block;
+        width:40%;
+        
+
+    }
+    .logo{
+        background-color: white;
+        color: black;
+
+    }
+    
+    .form{
+        width: 33.33%;
+
+    }
+    .about{
+        width: 33.33%;
+        align-item:center;
+        justify-content: center;
+
+    }
+
+    
+    .store{
+        width: 33.33%;
+        justify-content: center;
+    }
+
+    header{
+        display: flex;
+        justify-content:space-between;
+
+    }
+    .jean i{
+        text-align: end;
+
+    }
+
+        
+
+    
+    
+    
+
+
+
+    
+}
+
