@@ -1,0 +1,84 @@
+@font-face {
+    font-family: monsera_regulard;
+    src: url(../font/Montserrat-Regular.ttf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: monsera_regulard;
+}
+
+.logo{
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 .5rem
+}
+
+.jean{
+    display: flex;
+    justify-content: space-between;
+    padding:0.1rem 0.5rem
+}
+
+.titre{
+    background-image: url(../img/jeans.jpg);
+    height:30vh;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    
+}
+.titre *{
+    padding: 1rem;
+
+}
+.titre span{
+    background-color: black;
+}
+
+/* section article */
+
+.imgArticle img{
+    width: 100%;
+}
+.article{
+    width: 45%;
+    padding: 0.5rem;
+    box-shadow: 5px 5px 2px 1px rgba(200, 200, 200, .2);
+}
+.titreArticle{
+    color: rgb(65, 65, 65);
+}
+
+.cata{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* section suscribe */
+
+.suscribe{
+    background-color: black;
+    color: white;
+}
+.suscribe h2,.suscribe p,.suscribe form{
+   
+    padding: 00.8rem;
+}
+.suscribe form{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 3rem;
+}
+#buttonSusc{
+    width: 50%;
+    padding: 1rem;
+    background-color: red;
+    color: white;
+    
+}
