@@ -2,13 +2,14 @@
     font-family: monsera_regulard;
     src: url(../font/Montserrat-Regular.ttf);
 }
-*{
+
+* {
     padding: 0;
     margin: 0;
     font-family: monsera_regulard;
 }
 
-.logo{
+.logo {
     display: flex;
     background-color: black;
     color: white;
@@ -17,104 +18,117 @@
     padding: 0 .5rem
 }
 
-.jean{
+.jean {
     display: flex;
     justify-content: space-between;
-    padding:0.1rem 0.5rem
+    padding: 0.1rem 0.5rem
 }
 
-.titre{
+.titre {
     background-image: url(../img/jeans.jpg);
-    height:30vh;
+    height: 30vh;
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     color: white;
-    
+
 }
-.titre *{
+
+.titre * {
     padding: 1rem;
 
 }
-.titre span{
+
+.titre span {
     background-color: black;
 }
 
 /* section article */
 
-.imgArticle img{
+.imgArticle img {
     width: 100%;
 }
-.article{
+
+.article {
     width: 45%;
     padding: 0.5rem;
     box-shadow: 5px 5px 2px 1px rgba(200, 200, 200, .2);
 }
-.titreArticle{
+
+.titreArticle {
     color: rgb(65, 65, 65);
 }
 
-.cata{
+.cata {
     display: flex;
     flex-wrap: wrap;
 }
 
 /* section suscribe */
 
-.suscribe{
+.suscribe {
     background-color: black;
     color: white;
 }
-.suscribe h2,.suscribe p,.suscribe form{
-   
+
+.suscribe h2,
+.suscribe p,
+.suscribe form {
+
     padding: 00.8rem;
 }
-.suscribe form{
+
+.suscribe form {
     display: flex;
     flex-direction: column;
     padding-bottom: 3rem;
 }
-#buttonSusc{
+
+#buttonSusc {
     width: 50%;
     margin: 1rem 0;
     padding: 1rem;
     background-color: red;
     color: white;
-    
+
 }
-.mail input{
+
+.mail input {
     width: 100%;
     height: 4vh;
 }
 
 /* section contact */
 
-.contact{
+.contact {
     background-color: gray;
     display: flex;
     flex-wrap: wrap;
 }
 
 
-.contact h2{
+.contact h2 {
     text-align: center;
     padding: 2rem;
 }
-.contact p{
+
+.contact p {
     text-align: center;
 }
 
-.contact form{
+.contact form {
     padding: 0.5rem;
-    
+
     display: flex;
     flex-direction: column;
 }
-.form{
+
+.form {
     width: 100%;
 }
-.contact input{
+
+.contact input {
     margin: 0.5rem 0;
     padding: 0.5rem;
 }
@@ -123,109 +137,121 @@
     background-color: black;
     color: white;
 }
+
 .about {
     display: flex;
     flex-direction: column;
     text-align: center;
-    width:40%;
-    
-}
-.about a{
+    width: 40%;
 
-color: black;
 }
 
-.store{
+.about a {
+
+    color: black;
+}
+
+.store {
     width: 49%;
     text-align: center;
 }
-.store h3{
+
+.store h3 {
     padding: 0.5rem 0;
 }
 
 /* footer */
-footer{
-    background-color:black;
+footer {
+    background-color: black;
     color: white;
     height: 10vh;
-    
+
     display: flex;
     justify-content: center;
     align-items: center;
 
 }
 
-.listeMenu{
+.listeMenu {
     display: none;
 }
 
-.listeMenu ul{
-    margin:3rem
-    ;
+.listeMenu ul {
+    margin: 3rem;
 }
 
 
-@media screen and (min-width:576px){
-    .responsive{ 
+@media screen and (min-width:576px) {
+    .titre {
+        height:80vh ;
+    }
+
+    .responsive {
         display: flex;
     }
 
-    .contact{
+    .contact {
         display: flex;
-        
+
     }
 
-    #burger{
+    #burger {
         display: none;
-        
-    }
-    .listeMenu{
-        display: block;
-        width:40%;
-        
 
     }
-    .logo{
+
+    .listeMenu {
+        display: block;
+        width: 40%;
+
+
+    }
+
+    .logo {
         background-color: white;
         color: black;
 
     }
-    
-    .form{
+
+    .form {
         width: 33.33%;
 
     }
-    .about{
+
+    .about {
         width: 33.33%;
-        align-item:center;
+        align-items: center;
         justify-content: center;
 
     }
 
-    
-    .store{
+
+    .store {
         width: 33.33%;
         justify-content: center;
     }
 
-    header{
+    header {
         display: flex;
-        justify-content:space-between;
+        justify-content: space-between;
 
     }
-    .jean i{
+
+    .jean i {
         text-align: end;
 
     }
 
-        
+    .article {
+        width: 20%;
+    }
 
-    
-    
-    
+    .suscribe {
+        width: 85%;
+    }
 
+    .contact {
+        width: 85%;
+    }
 
-
-    
 }
-
